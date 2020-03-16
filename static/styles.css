@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.container img {
+  border-radius: 64px;
+}
+
+.container .name {
+  position: absolute;
+  top: 30px;
+  left: 140px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.container .handle {
+  position: absolute;
+  top: 70px;
+  left: 140px;
+  color: #666;
+  font-size: 24px;
+}
+
+.container .tweet {
+  font-size: 36px;
+  line-height: 1.2em;
+}
+
+.container .tweet strong {
+  color: red;
+}
+
+.container .date {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
